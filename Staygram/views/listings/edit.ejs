@@ -1,0 +1,70 @@
+<% layout("/layouts/boilerplate") -%>
+
+<div class="row mt-3">
+  <div class="col-8 offset-2">
+    
+  
+    <h3>Edit your Listing</h3>
+    <form method="POST" action="/listings/<%= listing._id %>?_method=PUT" novalidate class="needs-validation" enctype="multipart/form-data">
+
+      <div class="mb-3">
+        <label for="title" class="form-lable">Title</label>
+      <input name="listing[title]" value="<%= listing.title %>" type="text"  class="form-control" required/>
+      <div class="invalid-feedback">please enterd title</div>
+      
+      </div>
+
+      <div class="mb-3">
+
+        <label for="description" class="form-lable">Description</label>
+        <textarea name="listing[description]" class="form-control"><%= listing.description %> required</textarea>
+        <div class="invalid-feedback">please enterd discription</div>
+
+      </div>
+      <div class="mb-3">
+        <label for="image" class="form-lable">Upload New Image</label>
+        <input name="listing[image]" 
+        type="file" 
+        class="form-control"/>
+      </div>
+
+      <div class="mb-3">
+        <label for="price" class="form-lable">Price</label>
+        <input name="listing[price]" value="<%= listing.price %>"  class="form-control" required/>
+        <div class="invalid-feedback">please enterd price</div>
+      </div>
+  
+
+
+      <div class="mb-3">
+        <label for="country" class="form-lable">Country</label>
+        <input
+        name="listing[country]"
+        value="<%= listing.country %>"
+        type="text"
+        class="form-control"
+        required
+      />
+      <div class="invalid-feedback">please enterd country</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="location" class="form-lable">location</label>
+        <input
+        name="listing[location]"
+        value="<%= listing.location %>"
+        type="text"
+        class="form-control"
+        required
+      />
+      <div class="invalid-feedback">please enterd location</div>
+      </div>
+
+      
+      <br /><br />
+      <button class="btn btn-dark mt-3">Edit</button>
+    </form>
+
+  </div>
+</div>
+<script src="/js/script.js"></script>

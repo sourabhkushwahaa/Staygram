@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "66434489203dbf536705cd95"
+  },
+  "title": "Shree Villa",
+  "description": "Peaceful place to visit required required required required",
+  "image": {
+    "filename": "MajorPro_DEV/srpwfddlu0nnzxx07pbz",
+    "url": "https://res.cloudinary.com/dwl24vihj/image/upload/v1715697105/MajorPro_DEV/srpwfddlu0nnzxx07pbz.avif"
+  },
+  "price": 1000,
+  "location": "mumbai",
+  "country": "india",
+  "reviews": [
+    {
+      "$oid": "66459ff4c303cad0682a5c9e"
+    }
+  ],
+  "owner": {
+    "$oid": "66399a2e922007f80b4578f6"
+  },
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "664368810db43d0c6ff088eb"
+  },
+  "title": "my home",
+  "description": "sweet home",
+  "image": {
+    "filename": "MajorPro_DEV/s0zyfbe21mkkb12o9cjv",
+    "url": "https://res.cloudinary.com/dwl24vihj/image/upload/v1715693697/MajorPro_DEV/s0zyfbe21mkkb12o9cjv.avif"
+  },
+  "price": 500,
+  "location": "bhopal",
+  "country": "india",
+  "reviews": [],
+  "owner": {
+    "$oid": "6639cb43e5142f8965b387d3"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66436c1e4a7e4ac981beeb82"
+  },
+  "title": "sweet home",
+  "description": "sdfdsa",
+  "image": {
+    "filename": "MajorPro_DEV/lc53g7dr2rowthnignos",
+    "url": "https://res.cloudinary.com/dwl24vihj/image/upload/v1715694621/MajorPro_DEV/lc53g7dr2rowthnignos.avif"
+  },
+  "price": 300,
+  "location": "sdfda",
+  "country": "sdaf",
+  "reviews": [],
+  "owner": {
+    "$oid": "66399a2e922007f80b4578f6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6643742e628e6d9c24bb2d61"
+  },
+  "title": "sweet home",
+  "description": "sdafsf",
+  "image": {
+    "filename": "MajorPro_DEV/ft0yl7bybr99fnn4ecrt",
+    "url": "https://res.cloudinary.com/dwl24vihj/image/upload/v1715696685/MajorPro_DEV/ft0yl7bybr99fnn4ecrt.avif"
+  },
+  "price": 322,
+  "location": "dsfa",
+  "country": "india",
+  "reviews": [],
+  "owner": {
+    "$oid": "66399a2e922007f80b4578f6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6643762c772d1f60ddd63ea0"
+  },
+  "title": "dsadsa",
+  "description": "adsggds",
+  "image": {
+    "filename": "MajorPro_DEV/vgphyijfu2inyc3qecxt",
+    "url": "https://res.cloudinary.com/dwl24vihj/image/upload/v1715697195/MajorPro_DEV/vgphyijfu2inyc3qecxt.avif"
+  },
+  "price": 325,
+  "location": "sdgsa",
+  "country": "sfasad",
+  "reviews": [],
+  "owner": {
+    "$oid": "66399a2e922007f80b4578f6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66437700772d1f60ddd63ebd"
+  },
+  "title": "sweet home",
+  "description": "sdfadfsa",
+  "image": {
+    "filename": "MajorPro_DEV/wmtq44u4r2xvfcxvvlfz",
+    "url": "https://res.cloudinary.com/dwl24vihj/image/upload/v1715697408/MajorPro_DEV/wmtq44u4r2xvfcxvvlfz.avif"
+  },
+  "price": 2000,
+  "location": "adsf",
+  "country": "dasf",
+  "reviews": [],
+  "owner": {
+    "$oid": "66399a2e922007f80b4578f6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6643789f8a29d4d9c2f6ae4e"
+  },
+  "title": "ddgsdsa",
+  "description": "dgadsg",
+  "image": {
+    "filename": "MajorPro_DEV/e88wiovwn5hb66zmweig",
+    "url": "https://res.cloudinary.com/dwl24vihj/image/upload/v1715697823/MajorPro_DEV/e88wiovwn5hb66zmweig.avif"
+  },
+  "price": 325423,
+  "location": "asdds",
+  "country": "asdf",
+  "reviews": [
+    {
+      "$oid": "6645a01ac303cad0682a5cb7"
+    }
+  ],
+  "owner": {
+    "$oid": "66437757772d1f60ddd63edb"
+  },
+  "__v": 1
+}]

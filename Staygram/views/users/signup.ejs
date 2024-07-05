@@ -1,0 +1,33 @@
+<% layout("/layouts/boilerplate") -%>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card p-4"> <!-- Added padding -->
+                <div class="card-header">
+                    <h2 class="text-center">Sign Up</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/signup" method="POST" class="needs-validation" novalidate>
+                        <div class="form-group mb-3"> <!-- Added margin-bottom -->
+                            <label for="username">Username</label>
+                            <input name="username" id="username" placeholder="Enter your username" type="text" class="form-control" required>
+                            <div class="invalid-feedback">Please provide a username.</div>
+                        </div>
+                        <div class="form-group mb-3"> <!-- Added margin-bottom -->
+                            <label for="email">Email</label>
+                            <input name="email" id="email" placeholder="Enter your email" type="email" class="form-control" required>
+                            <div class="invalid-feedback">Please provide a valid email address.</div>
+                        </div>
+                        <div class="form-group mb-3"> <!-- Added margin-bottom -->
+                            <label for="password">Password</label>
+                            <input name="password" id="password" placeholder="Enter your password" type="password" class="form-control" required>
+                            <div class="invalid-feedback">Please provide a password.</div>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block mt-3">Sign Up</button> <!-- Added margin-top -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

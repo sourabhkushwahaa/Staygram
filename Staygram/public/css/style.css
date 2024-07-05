@@ -1,0 +1,241 @@
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-solid{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.infoLinks a{
+
+    text-decoration: none;
+    color: #222222;
+
+}
+
+
+.infoLinks a{
+
+    text-decoration: underline;
+}
+
+
+
+.infoSocial,.infoLinks , .brandName{
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.infoSocial i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.footerInfo{
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+}
+
+
+
+/* cards */
+
+.card .listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* card effeects */
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* show page */
+
+.show-img{
+    height: 30vh;
+}
+
+/* btn of show page */
+
+.btns{
+    display: flex;
+}
+
+.show-cards{
+    padding-left: 0;
+    padding: 0;
+}
+
+.logo-text {
+    font-family: 'Lucida Handwriting', 'Brush Script MT', cursive; /* Select cursive font styles */
+    font-size: 36px; /* Increase font size for prominence */
+    font-weight: 400; /* Use a lighter weight for elegance */
+    color: #d35400; /* Rust orange color for warmth and vibrancy */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 1px; /* Add slight spacing between letters for clarity */
+    transition: color 0.3s ease; /* Smooth color transition */
+    font-style: italic; /* Apply italic style for added flair */
+  }
+  
+  .logo-text:hover {
+    color: #e67e22; /* Darker rust orange color on hover */
+  }
+  
+
+  /* Navbar */
+.navbar {
+    background-color: #fff !important; /* Set background color */
+    border-bottom: 2px solid #3498db !important; /* Add border bottom with blue color */
+  }
+  
+  .navbar-brand {
+    font-family: 'Arial', sans-serif !important; /* Set font family for brand */
+  }
+  
+
+  /* Navbar Toggler Icon */
+  .navbar-toggler {
+    border-color: #3498db !important; /* Set border color */
+  }
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    color: #333 !important; /* Set text color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #3498db !important; /* Change text color on hover */
+  }
+  
+  /* Navbar Links on the right side */
+  .navbar-nav.ms-auto .nav-link {
+    margin-left: 10px !important; /* Add margin between links */
+  }
+  
+  /* Add New Post Link */
+  .navbar-nav.ms-auto .nav-link[href="/listings/new"] {
+    font-weight: bold !important; /* Set font weight */
+  }
+  
+  /* SignUp and LogIn Links */
+  .navbar-nav.ms-auto .nav-link[href="/signup"],
+  .navbar-nav.ms-auto .nav-link[href="/login"] {
+    font-weight: bold !important; /* Set font weight */
+    color: #3498db !important; /* Set text color */
+  }
+  
+  /* Log out Link */
+  .navbar-nav.ms-auto .nav-link[href="/logout"] {
+    font-weight: bold !important; /* Set font weight */
+    color: #e74c3c !important; /* Set text color */
+  }
+  
+
+
+  /* Footer */
+footer {
+    background-color: #f8f9fa !important; /* Set background color */
+    padding: 20px 0 !important; /* Set padding */
+    text-align: center !important; /* Center-align text */
+    font-size: 14px !important; /* Set font size */
+  }
+  
+  /* Footer Info Container */
+  .footerInfo {
+    display: flex !important; /* Use flexbox for layout */
+    justify-content: space-between !important; /* Space elements evenly */
+    align-items: center !important; /* Center-align items vertically */
+  }
+  
+  /* Social Icons */
+  .infoSocial {
+    display: flex !important; /* Use flexbox for layout */
+  }
+  
+  .infoSocial i {
+    margin-right: 10px !important; /* Add margin between icons */
+    color: #3498db !important; /* Set icon color */
+  }
+  
+  /* Brand Name */
+  .brandName {
+    font-family: 'Arial', sans-serif !important; /* Set font family */
+    color: #555 !important; /* Set text color */
+  }
+  
+  /* Info Links */
+  .infoLinks a {
+    color: #555 !important; /* Set link text color */
+    text-decoration: none !important; /* Remove underline */
+  }
+  
+  .infoLinks a:hover {
+    color: #3498db !important; /* Change text color on hover */
+  }
+  
